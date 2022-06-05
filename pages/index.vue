@@ -69,6 +69,11 @@ export default {
       padding: 10px;
       border: 1px solid gray;
   }
+  @media(max-width:785px) {
+   button{
+     width: 40%;
+   }
+}
 
 
   button:hover{
@@ -82,6 +87,12 @@ export default {
       cursor: pointer;
       border-bottom: 1px solid #fff;
       margin-top: 30px;
+  }
+
+  @media(max-width:425px){
+    .has_auth{
+      width: 80%;
+    }
   }
 
   .has_auth:hover{

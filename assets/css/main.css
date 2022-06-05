@@ -244,3 +244,20 @@ p {
 #logout:hover {
     border-bottom: 1px solid #fff;
 }
+
+@media(max-width:1024px) {
+    .inputs form {
+        width: 50%;
+    }
+}
+
+@media(max-width:425px) {
+    .inputs form {
+        width: 100%;
+        padding: 15px;
+        align-items: center;
+    }
+    .inputs form input {
+        width: 90%;
+    }
+}

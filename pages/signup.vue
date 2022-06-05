@@ -76,6 +76,12 @@ export default {
       background-color: #fff;
   }
 
+  @media(max-width:425px) {
+   button{
+       width: 70%;
+   }
+}
+
   .has_auth{
       width: 40%;
       color: blue;
