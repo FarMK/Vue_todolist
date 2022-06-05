@@ -1,6 +1,10 @@
 export default {
     // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
     ssr: false,
+  
+   router: {
+      base: 'https://github.com/FarMK/Vue_todolist.git'
+   },
 
 
     // Target: https://go.nuxtjs.dev/config-target
